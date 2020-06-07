@@ -14,5 +14,4 @@
 
 ## License
 
-[MIT License](https://en.wikipedia.org/wiki/MIT_License)
-
+[MIT License](https://github.com/jisulee723/wallpaper-changer/blob/master/LICENSE)
