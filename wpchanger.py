@@ -39,5 +39,8 @@ if key == 1:
     print("\nFinish")
 else:
     print("Start deleting...")
-    ctypes.windll.user32.SystemParametersInfoW(20, 0, 0, 3)
+    file_path = "D:\\Downloads\\bg.png"
+    wget.download("https://raw.githubusercontent.com/jisulee723/wallpaper-changer/master/images/defaultImage.jpg", file_path)
+    ctypes.windll.user32.SystemParametersInfoW(20, 0, file_path, 3)
+    os.remove(file_path)
     print("\nFinish")
